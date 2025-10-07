@@ -2,8 +2,8 @@
 // ==== Conexión a la BD ====
 $servername = "localhost";
 $username = "root";
-$password = "12345678";
-$dbname = "estudiantes6";
+$password = "";
+$dbname = "estudiantes";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
@@ -171,3 +171,4 @@ if ($accion == 'eliminar' && $id) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
